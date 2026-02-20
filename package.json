@@ -1,21 +1,16 @@
 {
   "name": "@standen/encoding",
-  "version": "0.0.1",
-  "description": "",
-  "keywords": [],
-  "homepage": "https://github.com/standen/encoding#readme",
-  "bugs": {
-    "url": "https://github.com/standen/encoding/issues"
+  "version": "0.0.2",
+  "main": "./src/index.ts",
+  "type": "module",
+  "repository": "https://github.com/standen/encoding",
+  "author": "Standen",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^25.3.0",
+    "typescript": "^5.9.3"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/standen/encoding.git"
-  },
-  "license": "ISC",
-  "author": "",
-  "type": "commonjs",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc"
   }
 }

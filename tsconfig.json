@@ -1,0 +1,40 @@
+{
+  "compilerOptions": {
+    /* Базовые настройки */
+    "target": "es2024",
+    "module": "commonjs",
+    "lib": ["es2024"],
+    "declaration": true,
+    "declarationMap": true,
+    "sourceMap": true,
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "strict": true,
+    
+    /* Дополнительные проверки */
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    
+    /* Модульное разрешение */
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    
+    /* Экспериментальные настройки */
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    
+    /* Продвинутые настройки */
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true
+  },
+  "include": ["src/**/*"],
+  "exclude": [
+    "node_modules",
+    "dist",
+    "**/*.test.ts",
+    "**/*.spec.ts"
+  ]
+}
