@@ -2,20 +2,20 @@
   "name": "@standen/encoding",
   "version": "0.0.1",
   "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "keywords": [],
+  "homepage": "https://github.com/standen/encoding#readme",
+  "bugs": {
+    "url": "https://github.com/standen/encoding/issues"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/standen/encoding.git"
   },
-  "keywords": [],
-  "author": "",
   "license": "ISC",
+  "author": "",
   "type": "commonjs",
-  "bugs": {
-    "url": "https://github.com/standen/encoding/issues"
-  },
-  "homepage": "https://github.com/standen/encoding#readme"
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
 }
